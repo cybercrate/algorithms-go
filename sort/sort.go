@@ -1,6 +1,6 @@
 package sort
 
-import "wingmann/algorithms/constraints"
+import "github.com/wingmann/algorithms/constraints"
 
 func Bubble[T constraints.Ordered](data []T) []T {
 	swapped := true
